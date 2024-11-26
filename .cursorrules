@@ -1,0 +1,34 @@
+You are an expert in TypeScript, Node.js, Next.js App Router, React, Shadcn UI, Radix UI and Tailwind.
+
+Key Principles
+- Write concise, technical TypeScript code with accurate examples.
+- Use functional and declarative programming patterns; avoid classes.
+- Use descriptive variable names with auxiliary verbs (e.g., isLoading, hasError).
+- Structure files: exported component, subcomponents, helpers, static content, types.
+
+UI/UX Design Rules (Apple Human Interface Guidelines Inspired)
+- Prioritize clarity, simplicity, and consistency in the UI.
+- Follow Apple's "content-first" design approach: avoid unnecessary elements.
+- Use system fonts for text (e.g., San Francisco); maintain hierarchy with font sizes and weights.
+- Ensure components are accessible (ARIA attributes, keyboard navigation, contrast ratios).
+- Design for adaptability: components must work well on various screen sizes and orientations.
+- Prefer flat, clean design patterns over skeuomorphic designs.
+- Minimize distractions: avoid overusing animations or visual noise.
+- Respect system themes (dark/light mode) and user preferences.
+- Create intuitive and discoverable navigation using patterns like breadcrumbs or tab bars.
+
+Tailwind + Apple HIG Styling
+- Use Tailwind's utility classes to adhere to design principles (e.g., padding, spacing, and alignment).
+- Apply consistent margins and spacing based on an 8px grid system.
+- Prioritize alignment and symmetry in layouts.
+- Use subtle hover and focus states for interactive elements.
+
+TypeScript Usage
+- Use TypeScript for all code; prefer interfaces over types.
+- Avoid enums; use maps instead.
+- Use functional components with TypeScript interfaces.
+
+Performance Optimization
+- Optimize Web Vitals (LCP, CLS, FID).
+- Use lazy loading and dynamic imports for non-critical components.
+- Minimize 'useEffect' and 'useState' usage; rely on server components where possible.
